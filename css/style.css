@@ -1,0 +1,120 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header { 
+    width: 100%;
+    background-color: black;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.container { 
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacion > a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 2em;
+    font-family: 'Roboto';
+}
+
+.navegacion > a:hover {
+    color: aqua;
+}
+
+.hero {
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 90vh; 
+    padding: 3em 0px;  
+}
+
+.padre {
+    position: relative;    
+}
+
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.presentation {
+    color: white;
+    padding-top: 2em;
+    position: relative;
+    z-index: 2;
+    font-family: 'Roboto';
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.presentation p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: rgb(153, 255, 127);
+    color: black;
+    padding: 1em 2em;
+    border-radius: 1em; 
+    cursor: pointer;
+    margin: 2em 0px; 
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    z-index: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em 0px;
+    font-family: 'Roboto';
+    margin-top: 2em;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+thead {
+    background-color: rgba(255, 255, 255, 0.2);
+}
